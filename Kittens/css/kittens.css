@@ -1,0 +1,31 @@
+body {
+    background-color: #FFA07A;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-align: center;
+    color: #6495ED;
+}
+
+h1 {
+    color: #FFF8DC;
+    font-size: 100px;
+}
+
+img {
+    border-radius: 12px;
+}
+
+p {
+    color: #FFF8DC;
+    font-size: 30px;
+}
+
+button {
+    background-color:	#B0C4DE;
+    color: #FFF8DC;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid #FFF8DC;
+    cursor: pointer;
+
+}
