@@ -1,0 +1,44 @@
+body {
+    background-color: #FFA07A;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #6495ED;
+}
+
+h1 {
+    color: #FFF8DC;
+    font-size: 150px;
+}
+
+img {
+    border-radius: 12px;
+    max-width:fit-content;
+    height: auto;
+    --animate-duration: 6s;
+}
+
+h4 {
+
+    --animate-duration: 50s;
+
+}
+
+p {
+    color: #FFF8DC;
+    font-size: 15px;
+}
+
+button {
+    background-color:	#B0C4DE;
+    color: #FFF8DC;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid #FFF8DC;
+    cursor: pointer;
+
+}
+
+footer {
+    font-size: 50px;
+}
