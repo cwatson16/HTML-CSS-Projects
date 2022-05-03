@@ -1,0 +1,50 @@
+:root { 
+    --black: #000000;
+    --blizzard-blue: #9addf0;
+    --dove-gray: #707070;
+    --sonic-silver: #747474;
+    --white: #ffffff;
+   
+    --font-size-l: 28px;
+    --font-size-m: 15px;
+    --font-size-s: 14px;
+    --font-size-xl: 35px;
+    --font-size-xxl: 40px;
+    --font-size-xxxl: 71px;
+    --font-size-xxxxl: 73px;
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+    --font-family-omnes-bolditalic: "Omnes-BoldItalic", Helvetica;
+  }
+  .omnes-bolditalic-bold-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-omnes-bolditalic);
+    font-size: var(--font-size-xxl);
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .omnes-bolditalic-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-omnes-bolditalic);
+    font-size: var(--font-size-s);
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .border-1px-dove-gray {
+    border: 1px solid var(--dove-gray);
+  }
+  
+
+body {
+    background-image: url("CH/img/GC.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
