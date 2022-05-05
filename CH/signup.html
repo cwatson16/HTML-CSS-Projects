@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <meta name="og:type" content="website" />
+  <link rel="stylesheet" type="text/css" href="css/sign-up-page.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/modal.css" />
+</head>
+
+<body style="margin: 0; background: #fdc4af">
+  <title>Sign Up Page</title>
+  <div class="container-center-horizontal">
+    <div class="sign-up-page screen">
+      <div class="canyon-hikers-Wxxxtm">CANYON HIKERS</div>
+      </a>
+      <div class="rectangle-2-Wxxxtm"></div>
+      <div class="rectangle-3-Wxxxtm border-1px-dove-gray"></div>
+      <div class="lorem-ipsum-dolor-si-Wxxxtm">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet.<br />
+      </div>
+      <div class="about-us-Wxxxtm">ABOUT US</div>
+      <a href="javascript:ShowOverlay('overlay', 'animate-appear');">
+      </a><img class="hiker-Wxxxtm" src="img/hiker@1x.png" />
+        <div class="rectangle-1-Wxxxtm"></div>
+
+      <!--Add sign up form here-->
+      <div class="container">
+      <form action="action_page.php">
+          <h4>Sign Up Today</h4>
+      
+          <label for="flname"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="flname" id="name">
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email">
+    
+          <p>By creating an account you agree to our subscriber<a href="#">Terms & Conditions</a>.</p>
+        </form>
+
+      <!--Sign up button -->
+      <div class="sign-me-up-Wxxxtm omnes-bolditalic-bold-white-40px">
+        <button id="myBtn" onclick="myFunction()">Sign Me Up!</button>
+        <script>
+          function myFunction() {
+            alert("Thanks for signing up, we look forward to seeing you!");
+          }
+        </script>
+      </div>
+
+      <audio src="CH/audio/Ding-sound-effect.mp3" id="myAudio"></audio>
+      <button id="myBtn"></button>
+      <script>  document.getElementById("myBtn").addEventListener("click",function(){
+          document.getElementById("myAudio").play();
+        }
+        );
+      </script>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+

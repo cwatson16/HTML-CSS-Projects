@@ -1,254 +1,256 @@
 /* screen - sign-up-page */
 
+/*MISSING :root psuedo-class for var functions*/
+
 
 /*BODY?*/
 .sign-up-page {
-    background-color: #fdc4af;
-    height: 1080px;
-    overflow: hidden;
-    overflow-x: hidden;
-    position: relative;
-    width: 1920px;
-  }
+  background-color: #fdc4af;
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: auto;
+}
 
-  /*CANYON HIKERS LOGO*/
-  
-  .sign-up-page .canyon-hikers-Wxxxtm {
+/*CANYON HIKERS LOGO*/
+
+.sign-up-page .canyon-hikers-Wxxxtm {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-omnes-bolditalic);
+  font-size: var(--font-size-xxxl);
+  font-style: italic;
+  font-weight: 700;
+  height: auto;
+  left: 50%;
+  letter-spacing: 0.00px;
+  line-height: 71px;
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.sign-up-page .rectangle-2-Wxxxtm {
+  background-color: var(--white);
+  border-radius: 93px;
+  height: 745px;
+  left: 262px;
+  position: absolute;
+  top: 191px;
+  width: 1396px;
+}
+
+.sign-up-page .rectangle-3-Wxxxtm {
+  background-color: var(--sonic-silver);
+  border-radius: 93px;
+  height: 745px;
+  left: 262px;
+  position: absolute;
+  top: 191px;
+  width: 552px;
+}
+
+.sign-up-page .lorem-ipsum-dolor-si-Wxxxtm {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  height: 276px;
+  left: 326px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 350px;
+  width: 439px;
+}
+
+
+/*ABOUT US HEADER*/
+
+.sign-up-page .about-us-Wxxxtm {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-omnes-bolditalic);
+  font-size: var(--font-size-xxxxl);
+  font-style: italic;
+  font-weight: 700;
+  height: auto;
+  left: 363px;
+  letter-spacing: 0.00px;
+  line-height: 73px;
+  position: absolute;
+  text-align: left;
+  top: 240px;
+  white-space: nowrap;
+  width: auto;
+}
+
+/* HIKER IMG */
+
+.sign-up-page .hiker-Wxxxtm {
+  background-color: transparent;
+  height: 290px;
+  left: 320px;
+  object-fit: cover;
+  position: absolute;
+  top: 593px;
+  width: 449px;
+}
+
+.sign-up-page .group-1-Wxxxtm {
+  background-color: transparent;
+  height: 369px;
+  left: 1090px;
+  position: absolute;
+  top: 295px;
+  width: 292px;
+}
+
+
+/*Sign Up Header*/
+
+.sign-up-page .sign-up-today-9uWsTk {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-omnes-bolditalic);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 700;
+  height: 46px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+
+/* START DIV CSS: This is included even tho its not in the right spot, just for the sake of making things more difficult for myself */
+
+h4 {
     background-color: transparent;
-    color: var(--white);
-    font-family: var(--font-family-omnes-bolditalic);
-    font-size: var(--font-size-xxxl);
-    font-style: italic;
-    font-weight: 700;
-    height: auto;
-    left: 1343px;
-    letter-spacing: 0.00px;
-    line-height: 71px;
-    position: absolute;
-    text-align: left;
-    top: 8px;
-    white-space: nowrap;
-    width: auto;
-  }
-
-
-  /*HOME Logo (will be edited out*/
-
-  .sign-up-page .home-Wxxxtm {
-    background-color: transparent;
-    color: var(--white);
-    cursor: pointer;
-    font-family: var(--font-family-omnes-bolditalic);
-    font-size: var(--font-size-xxxl);
-    font-style: italic;
-    font-weight: 700;
-    height: auto;
-    left: 30px;
-    letter-spacing: 0.00px;
-    line-height: 71px;
-    position: absolute;
-    text-align: left;
-    top: 8px;
-    white-space: nowrap;
-    width: auto;
-  }
-  
-  .sign-up-page .rectangle-2-Wxxxtm {
-    background-color: var(--white);
-    border-radius: 93px;
-    height: 745px;
-    left: 262px;
-    position: absolute;
-    top: 191px;
-    width: 1396px;
-  }
-  
-  .sign-up-page .rectangle-3-Wxxxtm {
-    background-color: var(--sonic-silver);
-    border-radius: 93px;
-    height: 745px;
-    left: 262px;
-    position: absolute;
-    top: 191px;
-    width: 552px;
-  }
-  
-  .sign-up-page .lorem-ipsum-dolor-si-Wxxxtm {
-    background-color: transparent;
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 600;
-    height: 276px;
-    left: 326px;
-    letter-spacing: 0.00px;
-    line-height: 15px;
-    position: absolute;
-    text-align: left;
-    top: 350px;
-    width: 439px;
-  }
-
-
-  /*ABOUT US HEADER*/
-  
-  .sign-up-page .about-us-Wxxxtm {
-    background-color: transparent;
-    color: var(--white);
+    color: var(black);
     font-family: var(--font-family-omnes-bolditalic);
     font-size: var(--font-size-xxxxl);
     font-style: italic;
     font-weight: 700;
     height: auto;
-    left: 363px;
+    right: 50px;
     letter-spacing: 0.00px;
-    line-height: 73px;
+    line-height: 250px;
     position: absolute;
-    text-align: left;
+    text-align: right;
     top: 240px;
     white-space: nowrap;
     width: auto;
   }
-
-
-  /* Sign Me Up non functional button*/
-
-  .sign-up-page .rectangle-1-Wxxxtm {
-    background-color: var(--blizzard-blue);
-    border-radius: 41px;
-    cursor: pointer;
-    height: 81px;
-    left: 1090px;
-    position: absolute;
-    top: 738px;
-    width: 301px;
-  }
-  
-  /* HIKER IMG */
-
-  .sign-up-page .hiker-Wxxxtm {
-    background-color: transparent;
-    height: 290px;
-    left: 320px;
-    object-fit: cover;
-    position: absolute;
-    top: 593px;
-    width: 449px;
-  }
-  
-  .sign-up-page .group-1-Wxxxtm {
-    background-color: transparent;
-    height: 369px;
-    left: 1090px;
-    position: absolute;
-    top: 295px;
-    width: 292px;
-  }
   
 
-  /*Sign Up Header*/
-
-  .sign-up-page .sign-up-today-9uWsTk {
-    background-color: transparent;
-    color: var(--black);
-    font-family: var(--font-family-omnes-bolditalic);
-    font-size: var(--font-size-xl);
-    font-style: italic;
-    font-weight: 700;
-    height: 46px;
-    left: 16px;
-    letter-spacing: 0.00px;
-    line-height: 35px;
-    position: absolute;
-    text-align: left;
-    top: 4px;
-    white-space: nowrap;
-    width: calc(100.00% - 29px);
-  }
-
-  /* START DIV CSS */
-  
-  .sign-up-page .first-name-9uWsTk {
-    background-color: transparent;
-    height: 19px;
-    left: 0px;
-    letter-spacing: 0.00px;
-    line-height: 14px;
-    position: absolute;
-    text-align: left;
-    top: calc(21.29% - 4px);
-    white-space: nowrap;
-    width: 82px;
-  }
-  
-  .sign-up-page .last-name-9uWsTk {
-    background-color: transparent;
-    bottom: calc(47.00% - 9px);
-    height: 19px;
-    left: 0px;
-    letter-spacing: 0.00px;
-    line-height: 14px;
-    position: absolute;
-    text-align: left;
-    white-space: nowrap;
-    width: 78px;
-  }
-  
-  .sign-up-page .email-address-9uWsTk {
-    background-color: transparent;
-    bottom: calc(15.29% - 3px);
-    height: 19px;
-    left: 0px;
-    letter-spacing: 0.00px;
-    line-height: 14px;
-    position: absolute;
-    text-align: left;
-    white-space: nowrap;
-    width: 108px;
-  }
-  /* END DIV CSS */
+ #name {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: calc(21.29% - 4px);
+  white-space: nowrap;
+  width: 82px;
+}
 
 
-  .sign-up-page .rectangle-4-9uWsTk {
-    background-color: var(--white);
-    height: 52px;
-    left: 0px;
-    position: absolute;
-    top: calc(29.97% - 16px);
-    width: 100%;
-  }
-  
-  .sign-up-page .rectangle-5-9uWsTk {
-    background-color: var(--white);
-    bottom: calc(35.02% - 18px);
-    height: 52px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .sign-up-page .rectangle-6-9uWsTk {
-    background-color: var(--white);
-    bottom: 0px;
-    height: 52px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .sign-up-page .sign-me-up-Wxxxtm {
-    background-color: transparent;
-    height: auto;
-    left: 1139px;
-    letter-spacing: 0.00px;
-    line-height: 40px;
-    position: absolute;
-    text-align: left;
-    top: 759px;
-    white-space: nowrap;
-    width: auto;
-  }
-  
+ #email {
+  background-color: transparent;
+  bottom: calc(15.29% - 3px);
+  height: 19px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 108px;
+}
+/* END DIV CSS */
 
-  
+/*START FORM CSS*/
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/*END FORM CSS*/
+
+
+.sign-up-page .rectangle-4-9uWsTk {
+  background-color: var(--white);
+  height: 52px;
+  left: 0px;
+  position: absolute;
+  top: calc(29.97% - 16px);
+  width: 100%;
+}
+
+.sign-up-page .rectangle-5-9uWsTk {
+  background-color: var(--white);
+  bottom: calc(35.02% - 18px);
+  height: 52px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.sign-up-page .rectangle-6-9uWsTk {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 52px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.sign-up-page .sign-me-up-Wxxxtm {
+  background-color: transparent;
+  height: auto;
+  left: 1139px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 759px;
+  white-space: nowrap;
+  width: auto;
+}
+
+
+button {
+  background-color:	#9ADDF0;
+  font-family: var(--font-family-omnes-bold);
+  color: #FFF8DC;
+  font-size: 40px;
+  border-radius: 12px;
+  border: 2px solid #FFF8DC;
+  cursor: pointer;
+  top: 50;
+}
+
+
+button:hover {background-color: #79d8f2}
+
